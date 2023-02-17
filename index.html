@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-white">
+    <div class="mx-auto w-[400px] p-8 shadow-xl bg-white">
+        <h2 class="text-white text-3xl font-semibold text-center mb-6">
+            Calculator With Dom
+        </h2>
+        <input id="input-field" class="text-white bg-[#181f32] py-6 px-4 w-full rounded-md" type="text" disabled>
+        <div class="bg-[#252c48] mt-4 p-4 rounded-md">
+            <div class="flex flex-col">
+                <div class="grid grid-cols-4 gap-4 mb-4">
+                    <button class="btn-main bg-white font-bold text-orange-500 rounded-md py-2 font-xl">7</button>
+                    <button class="btn-main bg-white font-bold text-orange-500 rounded-md py-2 font-xl">8</button>
+                    <button class="btn-main bg-white font-bold text-orange-500 rounded-md py-2 font-xl">9</button>
+                    <button class="btn-main bg-orange-500 font-bold text-white rounded-md py-2 font-xl">DEL</button> 
+                </div>
+                <div class="grid grid-cols-4 gap-4 mb-4">
+                    <button class="btn-main bg-white font-bold text-orange-500 rounded-md py-2 font-xl">6</button>
+                    <button class="btn-main bg-white font-bold text-orange-500 rounded-md py-2 font-xl">5</button>
+                    <button class="btn-main bg-white font-bold text-orange-500 rounded-md py-2 font-xl">4</button>
+                    <button class="btn-main bg-white font-bold text-orange-500 rounded-md py-2 font-xl">+</button> 
+                </div>
+                <div class="grid grid-cols-4 gap-4 mb-4">
+                    <button class="btn-main bg-white font-bold text-orange-500 rounded-md py-2 font-xl">3</button>
+                    <button class="btn-main bg-white font-bold text-orange-500 rounded-md py-2 font-xl">2</button>
+                    <button class="btn-main bg-white font-bold text-orange-500 rounded-md py-2 font-xl">1</button>
+                    <button class="btn-main bg-white font-bold text-orange-500 rounded-md py-2 font-xl">-</button> 
+                </div>
+                <div class="grid grid-cols-4 gap-4 mb-4">
+                    <button class="btn-main bg-white font-bold text-orange-500 rounded-md py-2 font-xl">.</button>
+                    <button class="btn-main bg-white font-bold text-orange-500 rounded-md py-2 font-xl">0</button>
+                    <button class="btn-main bg-white font-bold text-orange-500 rounded-md py-2 font-xl">/</button>
+                    <button class="btn-main bg-white font-bold text-orange-500 rounded-md py-2 font-xl">*</button> 
+                </div>
+                <div class="grid grid-cols-2 gap-4 mb-4">
+                    <button class="btn-main bg-orange-500 font-bold text-white rounded-md py-2 font-xl">BACK</button>
+                    <button class="btn-main bg-teal-500 font-bold text-white rounded-md py-2 font-2xl">=</button>
+                    
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- js-link -->
+    <script src="app.js"></script>
+</body>
+
+</html>
